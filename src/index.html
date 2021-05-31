@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Sibdev: Адаптивная верстка</title>
+</head>
+<body class="page">
+	<div class="page__sidebar">
+		<div class="sidebar open">
+			<div class="sidebar__btn-toggle">
+				<button class="btn-toggle btn" onclick="toggle()">
+					<img class="btn-toggle__icon-background" src="../assets/menu/btn background.svg">
+					<img class="btn-toggle__icon-close" src="../assets/menu/menu exit.svg" alt="close">
+					<img class="btn-toggle__icon-open" src="../assets/menu/burger menu.svg" alt="open">
+				</button>
+			</div>
+			<div class="sidebar__logo">
+				<div class="logo">
+					<img class="logo-img" src="../assets/logo/logo.svg" alt="logo">
+					<span class="logo-title">BECO</span>
+				</div>
+			</div>
+			<div class="sidebar__menu">
+				<nav class="menu">
+					<ul class="menu__list">
+						<li class="menu__list-item">
+							<a class="menu__list-link active" href="#">
+								<img class="menu__list-img" src="../assets/menu/active/catalog.svg" alt="catalog">
+								<span class="menu__list-title">Каталог</span>
+							</a>
+						</li>
+						<li class="menu__list-item">
+							<a class="menu__list-link" href="#">
+								<img class="menu__list-img" src="../assets/menu/default/health.svg" alt="health">
+								<span class="menu__list-title">Здоровье</span>
+							</a>
+						</li>
+						<li class="menu__list-item">
+							<a class="menu__list-link" href="#">
+								<img class="menu__list-img" src="../assets/menu/default/beauty.svg" alt="beauty">
+								<span class="menu__list-title">Красота</span>
+							</a>
+						</li>
+						<li class="menu__list-item">
+							<a class="menu__list-link" href="#">
+								<img class="menu__list-img" src="../assets/menu/default/enjoy.svg" alt="enjoy">
+								<span class="menu__list-title">Развлечения</span>
+							</a>
+						</li>
+						<li class="menu__list-item">
+							<a class="menu__list-link" href="#">
+								<img class="menu__list-img" src="../assets/menu/default/car.svg" alt="car">
+								<span class="menu__list-title">Авто</span>
+							</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</div>
+	<div class="page__header">
+		<header class="header">
+			<h1 class="header-title h1">Каталог</h1>
+			<div class="header__search">
+				<input class="input icon" placeholder="Какой магазин вам нужен?">
+				<img class="header__search-icon" src="../assets/search/search.svg">
+			</div>
+		</header>
+	</div>
+	<div class="page__content">
+		<main class="content">
+			<div class="content__coupons">
+				<div class="coupon">
+					<div class="coupon__inner">
+						<div class="coupon__top">
+							<div class="coupon-title">пробка на мира</div>
+							<div class="coupon-description">Вечер для двоих</div>
+						</div>
+						<div class="coupon__bottom">
+							<div class="coupon-num">-50%</div>
+							<div class="coupon-label">СКИДКА</div>
+						</div>
+						<img class="coupon-image" src="../assets/coupon/image 1.png" alt="coupon image">
+					</div>
+				</div>
+				<div class="coupon">
+					<div class="coupon__inner">
+						<div class="coupon__top">
+							<div class="coupon-title">КИНО И НЕМЦЫ</div>
+							<div class="coupon-description">Бесплатный бокал пива</div>
+						</div>
+						<div class="coupon__bottom">
+							<div class="coupon-num">ВАРВАР</div>
+							<div class="coupon-label">ПРОМОКОД</div>
+						</div>
+						<img class="coupon-image" src="../assets/coupon/image 2.png" alt="coupon image">
+					</div>
+				</div>
+				<div class="coupon">
+					<div class="coupon__inner">
+						<div class="coupon__top">
+							<div class="coupon-title">valery cakes</div>
+							<div class="coupon-description">Торт</div>
+						</div>
+						<div class="coupon__bottom">
+							<div class="coupon-num">30%</div>
+							<div class="coupon-label">скидка</div>
+						</div>
+						<img class="coupon-image" src="../assets/coupon/image 3.png" alt="coupon image">
+					</div>
+				</div>
+				<div class="coupon">
+					<div class="coupon__inner">
+						<div class="coupon__top">
+							<div class="coupon-title">sushi sell</div>
+							<div class="coupon-description">Набор “Праздник”</div>
+						</div>
+						<div class="coupon__bottom">
+							<div class="coupon-num">45%</div>
+							<div class="coupon-label">скидка</div>
+						</div>
+						<img class="coupon-image" src="../assets/coupon/image 4.png" alt="coupon image">
+					</div>
+				</div>
+				<div class="coupon">
+					<div class="coupon__inner">
+						<div class="coupon__top">
+							<div class="coupon-title">mangosteen</div>
+							<div class="coupon-description">Фрукт в подарок</div>
+						</div>
+						<div class="coupon__bottom">
+							<div class="coupon-num">J130</div>
+							<div class="coupon-label">купон</div>
+						</div>
+						<img class="coupon-image" src="../assets/coupon/image 5.png" alt="coupon image">
+					</div>
+				</div>
+				<div class="coupon">
+					<div class="coupon__inner">
+						<div class="coupon__top">
+							<div class="coupon-title">теленок табака</div>
+							<div class="coupon-description">Стейк “Мачете”</div>
+						</div>
+						<div class="coupon__bottom">
+							<div class="coupon-num">20%</div>
+							<div class="coupon-label">скидка</div>
+						</div>
+						<img class="coupon-image" src="../assets/coupon/image 6.png" alt="coupon image">
+					</div>
+				</div>
+				<div class="coupon">
+					<div class="coupon__inner">
+						<div class="coupon__top">
+							<div class="coupon-title">fire food</div>
+							<div class="coupon-description">Вторая шаурма в подарок</div>
+						</div>
+						<div class="coupon__bottom">
+							<div class="coupon-num">ОГОНЬ</div>
+							<div class="coupon-label">промокод</div>
+						</div>
+						<img class="coupon-image" src="../assets/coupon/image 7.png" alt="coupon image">
+					</div>
+				</div>
+				<div class="coupon">
+					<div class="coupon__inner">
+						<div class="coupon__top">
+							<div class="coupon-title">aroma cremeria</div>
+							<div class="coupon-description">Джелато “Пармезан”</div>
+						</div>
+						<div class="coupon__bottom">
+							<div class="coupon-num">20%</div>
+							<div class="coupon-label">Скидка</div>
+						</div>
+						<img class="coupon-image" src="../assets/coupon/image 8.png" alt="coupon image">
+					</div>
+				</div>
+				<div class="coupon">
+					<div class="coupon__inner">
+						<div class="coupon__top">
+							<div class="coupon-title">пробка на мира</div>
+							<div class="coupon-description">Вечер для двоих</div>
+						</div>
+						<div class="coupon__bottom">
+							<div class="coupon-num">-50%</div>
+							<div class="coupon-label">СКИДКА</div>
+						</div>
+						<img class="coupon-image" src="../assets/coupon/image 1.png" alt="coupon image">
+					</div>
+				</div>
+				<div class="coupon">
+					<div class="coupon__inner">
+						<div class="coupon__top">
+							<div class="coupon-title">КИНО И НЕМЦЫ</div>
+							<div class="coupon-description">Бесплатный бокал пива</div>
+						</div>
+						<div class="coupon__bottom">
+							<div class="coupon-num">ВАРВАР</div>
+							<div class="coupon-label">ПРОМОКОД</div>
+						</div>
+						<img class="coupon-image" src="../assets/coupon/image 2.png" alt="coupon image">
+					</div>
+				</div>
+				<div class="coupon">
+					<div class="coupon__inner">
+						<div class="coupon__top">
+							<div class="coupon-title">valery cakes</div>
+							<div class="coupon-description">Торт</div>
+						</div>
+						<div class="coupon__bottom">
+							<div class="coupon-num">30%</div>
+							<div class="coupon-label">скидка</div>
+						</div>
+						<img class="coupon-image" src="../assets/coupon/image 3.png" alt="coupon image">
+					</div>
+				</div>
+				<div class="coupon">
+					<div class="coupon__inner">
+						<div class="coupon__top">
+							<div class="coupon-title">sushi sell</div>
+							<div class="coupon-description">Набор “Праздник”</div>
+						</div>
+						<div class="coupon__bottom">
+							<div class="coupon-num">45%</div>
+							<div class="coupon-label">скидка</div>
+						</div>
+						<img class="coupon-image" src="../assets/coupon/image 4.png" alt="coupon image">
+					</div>
+				</div>
+			</div>
+		</main>
+	</div>
+
+	<script>
+		function toggle() {
+			const sidebar = document.getElementsByClassName('sidebar')[0]
+
+			if (sidebar.classList.contains('open')) {
+				sidebar.classList.remove('open')
+				sidebar.classList.add('closed')
+			}
+			else if (sidebar.classList.contains('closed')) {
+				sidebar.classList.remove('closed')
+				sidebar.classList.add('open')
+			}
+		}
+
+		window.addEventListener('scroll', function(e) {
+			const header = document.getElementsByClassName('header')[0]
+
+			if (window.scrollY > 0)
+				header.classList.add('scroll')
+			else
+				header.classList.remove('scroll')
+		})
+	</script>
+</body>
+</html>
